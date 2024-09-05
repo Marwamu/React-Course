@@ -27,6 +27,7 @@ const UseFetch = (url) =>{
     
             });
         }, 1000);
+        return ()=> console.log('clean up')
       }, []);
 
       return {data, isPending, error}
