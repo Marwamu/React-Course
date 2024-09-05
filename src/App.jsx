@@ -10,7 +10,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar></Navbar>
+        <Navbar></Navbar> 
+        <div
         <div className="content">
           <Switch>
             <Route path="/c">
