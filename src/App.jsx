@@ -11,15 +11,11 @@ function App() {
     <Router>
       <div className="App">
         <Navbar></Navbar> 
-        <div
         <div className="content">
           <Switch>
-            <Route path="/c">
+            <Route exact path="/">
               <Home />
             </Route>
-            {/* <Route path="/">
-              <Home />
-            </Route> */}
             <Route path="/create">
               <Create />
             </Route>
